@@ -217,7 +217,7 @@ public class Server extends JFrame {
 				String Nickname = new String(b);
 				Nickname = Nickname.trim();
 				
-				if (Nickname.equals("1192")){
+				if (Nickname.equals("1192") || Nickname.equals("062")){
 					textArea.append("ID " + Nickname + " 접속\n");
 					textArea.setCaretPosition(textArea.getText().length());	
 					textArea.append("현재 사용자 수  : " + (vc.size()+1) + "명\n");

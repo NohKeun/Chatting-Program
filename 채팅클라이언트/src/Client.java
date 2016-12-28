@@ -12,8 +12,8 @@ import javax.swing.JTextField;
 import javax.swing.border.EmptyBorder;
 
 public class Client extends JFrame {
-	public String [][] saveIdPwd = {{"MOnjk","123"},
-            {"NKP","123"}};
+	public String [][] saveIdPwd = {{"1192","han"},
+            {"062","sung"}};
 
 	private JPanel contentPane;
 	private JTextField tf_ID; // ID를 입력받을곳
